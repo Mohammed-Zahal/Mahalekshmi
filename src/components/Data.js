@@ -6,7 +6,7 @@ const  Data ={
      countInStock:'10',
      category : 'Saree',
      description:"Pink Color Kanchipuram Sliks",
-     image : 'image/images (5).jpg',
+     image : 'image/download (1).jpg',
       color:"pink",
       button:"Exclusive",
       percentage:'18% OFF'
@@ -17,9 +17,9 @@ const  Data ={
          countInStock:'10',
          category : 'Saree',
          description:"Kanchipuram Silk Sarees ",
-         image : 'image/download (3).jpg',
+         image : 'image/download.jpg',
           color:"pink",
-          button:"Super Deal",
+          button:"Super ",
           percentage:'18% OFF'
      },
      {
@@ -28,7 +28,7 @@ const  Data ={
          countInStock:'30',
          category : 'Saree',
          description:"Pink Color Kanchipuram Sliks",
-         image : 'image/images (5).jpg',
+         image : 'image/download.jpg',
           color:"pink",
           button:"Trending",
           percentage:'18% OFF'
@@ -39,7 +39,7 @@ const  Data ={
          countInStock:'30',
          category : 'Saree',
          description:"Pink Color Kanchipuram Sliks",
-         image : 'image/images (4).jpg',
+         image : 'image/download (1).jpg',
           color:"pink",
           button:"Exclusive",
           percentage:'18% OFF'
@@ -50,7 +50,7 @@ const  Data ={
          countInStock:'30',
          category : 'Saree',
          description:"Pink Color Kanchipuram Sliks",
-         image : 'image/images (3).jpg',
+         image : 'image/download.jpg',
           color:"pink",
           button:"Limited",
           percentage:'18% OFF'
@@ -61,7 +61,7 @@ const  Data ={
          countInStock:'30',
          category : 'Saree',
          description:"Pink Color Kanchipuram Sliks",
-         image : 'image/images (4).jpg',
+         image : 'image/download (1).jpg',
           color:"pink",
           button:"Exclusive",
           percentage:'18% OFF'
@@ -72,7 +72,7 @@ const  Data ={
          countInStock:'30',
          category : 'Saree',
          description:"Pink Color Kanchipuram Sliks",
-         image : 'image/images (3).jpg',
+         image : 'image/download.jpg',
           color:"pink",
           button:"Exclusive",
           percentage:'18% OFF'
@@ -83,7 +83,7 @@ const  Data ={
              countInStock:'30',
              category : 'Saree',
              description:"Pink Color Kanchipuram Sliks",
-             image : 'image/images (5).jpg',
+             image : 'image/download (1).jpg',
               color:"pink",
               button:"Top Deal",
               percentage:'18% OFF'
