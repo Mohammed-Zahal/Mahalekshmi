@@ -1,0 +1,13 @@
+.navbar-expand-lg .navbar-nav .dropdown-menus {
+    position: absolute;
+    display: flex;
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    background-color: #fff;
+   right: 5%;
+}
+
+#items{
+    text-align: center;
+}

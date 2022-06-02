@@ -1,0 +1,40 @@
+#nav-items {
+    margin-top: 70px;
+    font-size: 10.99px;
+    margin-left: 60px;
+    position: relative;
+    flex: 5;
+}
+
+.logo {
+
+    height: 80px;
+    flex: 3;
+}
+
+.serachButton {
+    /* flex: 4; */
+    margin-top: 80px;
+}
+
+/* #search-item {
+    position: absolute;
+    width: 50%;
+    /* margin-left: 50px; */
+/* } */
+.collapse {
+    display: none;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+}
+
+
+
+/* 
+.d-flex {
+    margin-top: 50px;
+    margin-left: 100px;
+} */

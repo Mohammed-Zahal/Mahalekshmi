@@ -1,0 +1,36 @@
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    display: flex;
+    padding: 0;
+    border: none;
+    margin-top: 15px;
+
+}
+
+#first-menu{
+  padding: 30px;
+    background-color: rgb(209, 199, 199);
+    font-weight:bold;
+    max-width: 100%;
+ 
+}
+#second-menu{
+    padding: 30px;
+    font-weight:bold;
+    max-width: 100%;
+
+}
+#third-menu{
+    max-width: 100%;
+}
+#items{
+ font-weight: lighter;
+font-size: smaller;
+  
+}
+#items:hover{
+    text-decoration: underline;
+}
+

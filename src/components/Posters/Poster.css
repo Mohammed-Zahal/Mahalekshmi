@@ -1,0 +1,230 @@
+.container {
+    margin:auto;
+    max-width: 100%;
+}
+
+.header {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+}
+
+.cards {
+    padding: 1rem;
+
+}
+/* .styl:hover{
+     content: "";
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 1px solid #fff;
+    border-width: 1px 1px 0 0;
+    width: 1rem;
+    height: 1rem; 
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+} */
+.styl::after {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 1px solid #fff;
+    border-width: 1px 1px 0 0;
+    width: 1rem;
+    height: 1rem;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.shop-category {
+    font-family: 'Grape Nuts', cursive;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.styl {
+    position: relative;
+    margin-left: 20px;
+    border: none;
+    align-items: center;
+
+}
+
+.card-img-top {
+    max-height: 337px;
+    object-fit: cover;
+    
+}
+
+.col .colum {
+    flex-basis: 50%;
+    flex: 1 0;
+}
+
+.buttons {
+
+    color: aliceblue;
+    position: absolute;
+    margin-top: 80%;
+    width: 100%;
+    margin-left: 30%;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.trending-buton {
+    background-color: rgb(233, 25, 25);
+    border: 0;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    display: block;
+    border-radius: 0;
+    width: 5.5rem;
+    height: 2rem;
+    text-align: center;
+
+}
+
+.buttons .viewmore-button {
+    background-color: white;
+    width: 8.5rem;
+    height: 40px;
+    border-radius: 0;
+    border: 0;
+    position: relative;
+
+}
+
+.buttons .viewmore-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(1, 18, 44);
+    transition: 0.4s ease-in-out;
+    top: 0;
+}
+
+.buttons .viewmore-button:hover::before {
+    height: 90%;
+}
+
+.buttons .viewmore-button:hover p {
+    color: #fff;
+}
+
+.buttons .viewmore-button p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+    body .container {
+    max-width: 100%;
+}
+}
+@media (min-width: 992px) and (max-width:1200px) {
+    
+    .col.colum {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .trending-buton {
+        background-color: rgb(233, 25, 25);
+        border: 0;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        border-radius: 0;
+        width: 3.5rem;
+        height: 2rem;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .buttons .viewmore-button {
+        background-color: white;
+        width: 6.5rem;
+        height: 2rem;
+        border-radius: 0;
+        border: 0;
+
+    }
+}
+
+@media (max-width: 990px) {
+    .cards .styl {
+        width: 100%;
+        height: 100%;
+        min-width: 100px;
+        min-height: 250px;
+        font-size: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 15px #00000030;
+    }
+    .card-img-top {
+        max-height: 320px;
+        object-fit: cover;
+    }
+    body .container {
+        max-width: 100%;
+    }
+  
+    .trending-buton {
+        background-color: rgb(233, 25, 25);
+        border: 0;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        border-radius: 0;
+        width: 3.5rem;
+        height: 2rem;
+        font-size:  10px; ;
+    }
+
+    .buttons .viewmore-button {
+        background-color: white;
+        width: 6.5rem;
+        height: 2rem;
+        border-radius: 0;
+        border: 0;
+
+    }
+}
+
+
+
+@media(max-width : 500px) {
+    .cards .styl {
+        width: 100%;
+        height: 100%;
+        min-width: 200px;
+        min-height: 300px;
+        font-size: 12px;
+        border-radius: 4%;
+        overflow: hidden;
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 15px #00000030;
+    }
+    .card-img-top {
+        max-height: 300px;
+        object-fit: cover;
+    }
+    
+    .buttons{
+        bottom: 20%;
+    }
+    body .container {
+        max-width: 100%;
+    }
+}

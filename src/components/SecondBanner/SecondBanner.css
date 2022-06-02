@@ -1,0 +1,46 @@
+/* .SecondBanner {
+    background-size: cover;
+     height: 100%;
+    width: 100%;
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    max-width: 100%;
+    margin-bottom: 200px;
+} */
+
+
+.SecondBanner{
+ margin-top: 5%;
+ padding: 30px;
+
+}
+
+.banners {
+    position: relative;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    .banners{
+        width: 100%;
+        height: 100%;
+        /* background-position: center center; */
+    }
+}
+
+/* @media(max-width : 500px) {
+    .banners {
+        background-size: 900px;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+        margin-left: 50px;
+        max-width: 50%;
+    }
+} */
